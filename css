@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  body {
+    background-color: #f2f6fc;
+    color: #333;
+    padding: 20px;
+  }
+
+  #main-title {
+    color: #0057a3;
+    text-align: center;
+  }
+
+  .paragraph {
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+
+  img.profile-pic {
+    display: block;
+    margin: 20px auto;
+    border: 4px solid #0057a3;
+    border-radius: 10px;
+    max-width: 200px;
+  }

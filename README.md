@@ -1,29 +1,29 @@
-# Introduction to CSS
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Introduction to css</title>
+  <style>
+    div{
+        border: 3px solid black;
+        padding: 50px;
+    }
+    img{
+        margin: 20px 15px 5px 10px;
+    }
+</style>
+</head>
+<body>
 
-## Objectives
-Link an external CSS file to an HTML document.
-Apply basic styling using selectors.
-Use colors, fonts, and spacing effectively.
+  <h1 style="color: greenyellow; font-size: 60px;">Introduction to CSS</h1>
 
-## Instructions
+  <p class="paragraph">
+    This is a paragraph for improved readability and visual appeal.
+  </p>
 
-Create a style.css file.
-Apply CSS to a HTML page.
-Style elements using:
-Classes and IDs.
-Color and typography.
-Margins, paddings, and borders.
+  <img src="Images/Mustang.jpg" alt="Profile Picture" class="profile-pic">
 
->[!NOTE]
->  - Include at least:
->  - Use of 3 selectors
->  - Style an image
->  - Margin, Padding & Borders
->  - Different font
-
-# Tasks
- - Link an external CSS file.
- - Apply at least 3 different selectors.
- - Improve readability and aesthetics.
-
-Happy Coding! 💻✨
+</body>
+</html>
